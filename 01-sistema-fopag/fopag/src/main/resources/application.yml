@@ -1,0 +1,11 @@
+server:
+  servlet:
+    context-path: /fopag
+  port: 8080
+
+spring:
+  profiles:
+    active: local
+
+  application:
+    name: fopag
