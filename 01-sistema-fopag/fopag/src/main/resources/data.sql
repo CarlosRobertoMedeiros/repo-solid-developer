@@ -1,24 +1,3 @@
---drop table time_record
---drop table employee
-
---CREATE TABLES
---create table employee(
---   employee_id INT AUTO_INCREMENT PRIMARY KEY,
---   name VARCHAR(50),
---   role VARCHAR(50),
---   salary DECIMAL(10, 2)
---   wage DECIMAL(10, 2)
---   type clob
---);
---
---create table time_record(
---   time_record_id INT AUTO_INCREMENT PRIMARY KEY,
---   employee_id int,
---   checkin_date timestamp,
---   checout_date timestamp,
---   FOREIGN KEY (employee_id) REFERENCES employee(employee_id)
---);
-
 -- INSERT TABLES
 INSERT INTO tb_employee(name,role,salary,wage) VALUES ('Pedro Silva', 'Developer', 50, 'hourly');
 INSERT INTO tb_employee(name,role,salary,wage) VALUES ('Ana Costa', 'Developer', 5000, 'salaried');
